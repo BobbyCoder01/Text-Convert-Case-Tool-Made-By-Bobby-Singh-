@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: Arial, sans-serif; */
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added for absolute positioning */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+#outputText {
+    height: 200px;
+}
+
+/* Styling for the "Copy to Clipboard" button */
+#copyButton {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #11aa37;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(243, 243, 243);
+    text-align: center;
+    width: 100vw;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    display: inline-flex;
+    align-items: center;
+}
+
+.bobby{
+    text-decoration: none;
+    color: #f0ad4e;
+}
+
+.UPPERCASE{
+    background-color: red !important;
+}
+.lowercase{
+    background-color: rgb(8, 230, 56) !important;
+}
+.Title{
+    background-color: rgb(238, 160, 16) !important;
+}
+.Capitalize{
+    background-color: rgb(2, 212, 219) !important;
+}
+.Capitalize{
+    background-color: rgb(185, 194, 58) !important;
+}
+.Invert{
+    background-color: rgb(235, 34, 241) !important;
+}
